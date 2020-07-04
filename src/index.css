@@ -72,17 +72,12 @@ section {
   position: relative;
 }
 
-.features {
-  border: 5px solid red;
-}
-
 .card {
   display: inline-block;
   height: 50vh;
   width: 20vw;
-  border: 5px solid red;
   padding: 10px;
-  margin: 5px;
+  margin: 12px;
 }
 
 #projects {

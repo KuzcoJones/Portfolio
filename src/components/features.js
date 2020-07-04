@@ -1,50 +1,94 @@
 import React from 'react'
-import { Card, CardActionArea, CardMedia, CardContent, CardActions, Typography, Grid } from '@material-ui/core';
-// import classes from '*.module.css';
+import {
+      IconButton,
+      Button,
+      Paper,
+      Card,
+      CardHeader,
+      CardActionArea,
+      CardMedia,
+      CardContent,
+      CardActions,
+      Typography,
+      Grid
+} from '@material-ui/core';
 
+import {GitHub, PlayArrow, } from '@material-ui/icons'
+// import classes from '*.module.css';
+import ShoutRandomly from '../images/SignupShout.jpeg'
 
 
 
 
 const features = () => {
 
- return (
-  <div>
-   <Card className='card'>
-    <CardActionArea>
-    <CardMedia />
-    <CardContent>
-     <Typography>
-      Im just a good boy
-     </Typography>
-    </CardContent>
-   </CardActionArea>
-   </Card>
+      return ( 
+      <Grid className="features" spacing={2} justify="space-evenly">
+            <Card className = 'card'>
+                  <CardHeader title="ShoutRandomly"/>
+                  <CardActionArea >
+                        <CardMedia 
+                        component="img"
+                        height="290"
+                        image={ShoutRandomly}
+                        title = "ShoutRandomly"
+                        / >
+                              
+                  </CardActionArea> 
+                  <CardActions>
+                        <IconButton>
+                              <PlayArrow/>
+                        </IconButton>
+                        <IconButton>
+                              <GitHub/>
+                        </IconButton>
+                  </CardActions>
+            </Card>
+            
 
-   <Card className='card'>
-    <CardActionArea>
-    <CardMedia image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"/>
-    <CardContent>
-     <Typography>
-      Im just a good boy
-     </Typography>
-    </CardContent>
-   </CardActionArea>
-   </Card>
+            <Card className = 'card'>
+                  <CardHeader title="ShoutRandomly"/>
+                  <CardActionArea >
+                        <CardMedia 
+                        component="img"
+                        height="290"
+                        image={ShoutRandomly}
+                        title = "ShoutRandomly"
+                        / >
+                              
+                  </CardActionArea> 
+                  <CardActions>
+                        <IconButton>
+                              <PlayArrow/>
+                        </IconButton>
+                        <IconButton>
+                              <GitHub/>
+                        </IconButton>
+                  </CardActions>
+            </Card>
 
-   <Card className='card'>
-    <CardActionArea>
-    <CardMedia />
-    <CardContent>
-     <Typography>
-      Im just a good boy
-     </Typography>
-    </CardContent>
-   </CardActionArea>
-   </Card>
-  </div>
- )
+            <Card className = 'card'>
+                  <CardHeader title="ShoutRandomly"/>
+                  <CardActionArea >
+                        <CardMedia 
+                        component="img"
+                        height="290"
+                        image={ShoutRandomly}
+                        title = "ShoutRandomly"
+                        / >
+                              
+                  </CardActionArea> 
+                  <CardActions>
+                        <IconButton>
+                              <PlayArrow/>
+                        </IconButton>
+                        <IconButton>
+                              <GitHub/>
+                        </IconButton>
+                  </CardActions>
+            </Card> 
+      </Grid>
+      )
 }
 
 export default features;

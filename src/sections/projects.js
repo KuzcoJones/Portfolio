@@ -2,6 +2,7 @@ import React from 'react'
 import Features from '../components/features'
 
 
+// TO-DO
 // Picture links that open the project in a new window and buttons on the picture to open 
 
 const projects = () => {

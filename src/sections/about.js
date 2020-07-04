@@ -1,4 +1,6 @@
 import React from 'react'
+import { Card, CardMedia } from '@material-ui/core'
+import {HeadShot} from '../images/KeenanHeadShot.jpg'
 
 const about = () => {
  return (
@@ -7,9 +9,11 @@ const about = () => {
     <p>
      Hello! I'm Keenan, a full-stack software engineer based in Chicago, IL.
     </p>
-    <p>
-     
-    </p>
+
+    <Card >
+      <CardMedia component="img"  image={HeadShot} title = "Keenan" />
+    </Card>
+    
   </section>
  )
 }
