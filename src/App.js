@@ -8,10 +8,11 @@ import Layout from './components/layout'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
-  // palette: {
-  //   primary:  {},
-  //   secondary: {},
-  // }
+  palette: {
+    primary:  {main: '#1D3557', light: '#a8dadc', contrastText: '#ffffff' },
+    secondary: {main: '#e3ba34', contrastText: '#000000'},
+    typography: {main: 'Roboto', }
+  }
 
 })
 

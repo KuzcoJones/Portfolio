@@ -1,15 +1,11 @@
 import React from 'react'
 import {
       IconButton,
-      Button,
-      Paper,
       Card,
       CardHeader,
       CardActionArea,
       CardMedia,
-      CardContent,
       CardActions,
-      Typography,
       Grid
 } from '@material-ui/core';
 

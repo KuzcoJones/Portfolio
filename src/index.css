@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: #1d3557;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
 section {
   margin: 0 auto;
   padding: 150px 0;
@@ -19,12 +32,17 @@ section {
   margin-bottom: 20px;
 }
 
+.socials li :hover {
+  color: #e3ba34;
+  height: 4rem;
+}
+
 .socials::after {
   content: "";
   display: block;
   width: 1px;
   height: 150px;
-  background-color: black;
+  background-color: #e3ba34;
   margin: 0px auto;
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
@@ -53,10 +71,14 @@ section {
   display: block;
   width: 1px;
   height: 150px;
-  background-color: black;
+  background-color: #e3ba34;
   margin: 0px auto;
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+}
+
+.email :hover {
+  color: #e3ba34;
 }
 
 @media all and (max-width: 900px) {
@@ -74,7 +96,7 @@ section {
 
 .card {
   display: inline-block;
-  height: 50vh;
+  height: 55vh;
   width: 20vw;
   padding: 10px;
   margin: 12px;
@@ -82,5 +104,24 @@ section {
 
 #projects {
   display: block;
+}
+
+#img-container {
+  background-color: #a8dadc;
+  -webkit-box-shadow: 5px 10px;
+          box-shadow: 5px 10px;
+}
+
+#img {
+  opacity: 0.5;
+}
+
+#img:hover {
+  opacity: 1;
+  height: 25rem;
+}
+
+article {
+  float: left;
 }
 /*# sourceMappingURL=index.css.map */

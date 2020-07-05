@@ -1,17 +1,20 @@
 import React from 'react'
 import { Card, CardMedia } from '@material-ui/core'
-import {HeadShot} from '../images/KeenanHeadShot.jpg'
+import HeadShot from '../images/KeenanHeadShot.jpg'
 
 const about = () => {
  return (
   <section className="About" id="about">
-   <h1>About Me</h1>
-    <p>
-     Hello! I'm Keenan, a full-stack software engineer based in Chicago, IL.
-    </p>
+    <article>
+      <h1>About Me</h1>
+      <p>
+      Hello! I'm Keenan, a full-stack software engineer based in Chicago, IL.
+      </p>
+    </article>
+   
 
-    <Card >
-      <CardMedia component="img"  image={HeadShot} title = "Keenan" />
+    <Card className="card" id="img-container">
+      <CardMedia component="img" height="390" image={HeadShot} title = "Keenan" id="img"/>
     </Card>
     
   </section>
