@@ -1,22 +1,20 @@
 import React from 'react'
-import { Button } from '@material-ui/core'
+import { Button, Typography} from '@material-ui/core'
 
 const hero = () => {
  return (
   <section>
    <article id="hero-article">
-    <h4>Hello, my name is</h4>
-    <h1>Keenan Jones.</h1>
-    <h2>I build things for the web</h2>
-    <p>I'm a software engineer based in Chicago, IL specializing in building beautiful, maintainable, high-quality, and high-performing web applications. </p>
+    <Typography variant="h4">Hello, my name is</Typography>
+    <Typography variant="h1">Keenan Jones</Typography>
+    <Typography variant="h3">I build things for the web</Typography>
+    <br/>
+    <br/>
+    <Typography variant="h5">I'm a software engineer based in Chicago, IL specializing in building beautiful, maintainable, and high-performing web applications. </Typography>
    </article>
    
-
-   {/* button here that sends a email  to  my email*/}
-
-   <Button variant="contained" href="mailto:keenanjones210@gmail.com">
+   <Button id="hero-button" variant="contained" color="secondary" href="mailto:keenanjones210@gmail.com">
      Get In Touch
-     {/* <a href="mailto:keenanjones210@gmail.com">Get In Touch</a> */}
     </Button>
   </section>
  )

@@ -6,18 +6,23 @@ import { Tab, Tabs }  from '@material-ui/core'
 
 
 const Navbar = () => {
+  
+
   return ( 
-  <nav className = "nav" id="nav">
-      <Tabs 
+  
+      <Tabs
+        className="nav" 
+        id="nav"
         textColor="primary"
-        aria-label="disabled tabs example">
+        component="nav"
+        >
         <Tab label="About" value='about' href="#about"/>
         <Tab label="Experience" href="#experience"/>
         <Tab label="Projects" href="#projects"/>
         <Tab label="Contact" href="#contact"/>
-        <Tab label="Resume" />
+        <Tab label="Resume" color="#ff6242"/>
       </Tabs>
-    </nav>
+    
   )
 }
 

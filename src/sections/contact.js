@@ -5,7 +5,7 @@ const contact = () => {
  return (
   <section id="contact">
    <h1>contact</h1>
-   <Button href="mailto:keenanjones210@gmail.com">
+   <Button href="mailto:keenanjones210@gmail.com" variant="contained" color="secondary">
     Get In Touch
    </Button>
   </section>

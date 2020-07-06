@@ -32,10 +32,10 @@ const features = () => {
                               
                   </CardActionArea> 
                   <CardActions>
-                        <IconButton>
-                              <PlayArrow/>
+                        <IconButton className="feature-button">
+                              <PlayArrow />
                         </IconButton>
-                        <IconButton>
+                        <IconButton className="feature-button">
                               <GitHub/>
                         </IconButton>
                   </CardActions>
@@ -54,10 +54,10 @@ const features = () => {
                               
                   </CardActionArea> 
                   <CardActions>
-                        <IconButton>
+                        <IconButton className="feature-button">
                               <PlayArrow/>
                         </IconButton>
-                        <IconButton>
+                        <IconButton className="feature-button">
                               <GitHub/>
                         </IconButton>
                   </CardActions>
@@ -75,10 +75,10 @@ const features = () => {
                               
                   </CardActionArea> 
                   <CardActions>
-                        <IconButton>
+                        <IconButton className="feature-button">
                               <PlayArrow/>
                         </IconButton>
-                        <IconButton>
+                        <IconButton className="feature-button">
                               <GitHub/>
                         </IconButton>
                   </CardActions>

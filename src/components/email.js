@@ -1,10 +1,10 @@
 import React from 'react'
-import { Link } from '@material-ui/core'
+import { Link, Typography } from '@material-ui/core'
 
 const email = () => {
  return (
   <div className="email">
-   <Link color="black" component="button" underline='none'><h3>keenanjones210@gmail.com</h3></Link>
+   <Link color="black" component="button" underline='none'><Typography variant="h6" id="email">keenanjones210@gmail.com</Typography></Link>
   </div>
  )
 }

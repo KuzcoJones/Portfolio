@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6, span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+hr {
+  border-color: #e3ba34;
+}
+
 .App {
   background-color: #1d3557;
   height: 100%;
@@ -59,7 +68,7 @@ section {
   padding: 20px;
 }
 
-.email h3 {
+#email {
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
@@ -92,6 +101,16 @@ section {
 
 #nav {
   position: relative;
+  display: block;
+  float: right;
+}
+
+#nav a:hover {
+  background-color: #e3ba34;
+}
+
+#nav button {
+  background-color: #ff6242;
 }
 
 .card {
@@ -107,7 +126,7 @@ section {
 }
 
 #img-container {
-  background-color: #a8dadc;
+  background-color: #e3ba34;
   -webkit-box-shadow: 5px 10px;
           box-shadow: 5px 10px;
 }
@@ -123,5 +142,20 @@ section {
 
 article {
   float: left;
+}
+
+#hero-button {
+  position: relative;
+  left: 30%;
+  margin-top: 11%;
+  padding: 4%;
+}
+
+.education-experience {
+  display: inline-block;
+}
+
+#education {
+  margin-left: 10vw;
 }
 /*# sourceMappingURL=index.css.map */
