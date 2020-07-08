@@ -4,14 +4,9 @@
   
 }
 
-
 h1,h2,h3, h4, h5, h6, span{
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff ;
-}
-
-h1{
-  // font-wieght: ;
 }
 
 hr{
@@ -26,6 +21,7 @@ hr{
     padding: 0;
     margin: 0 auto;
 }
+
 section{
  margin: 0 auto;
   padding: 150px 0;
@@ -39,8 +35,8 @@ section{
   z-index: 1;
   bottom: 0;
   left: 0;
-  // padding: 20px;
  }
+
  .socials li{
   list-style: none;
   margin-bottom: 20px;
@@ -124,7 +120,6 @@ section{
 
 #projects{
   display: block;
-  // background-color: darkgrey;
 }
 
 #img-container{
@@ -156,14 +151,43 @@ article{
 
 .education-experience{
   display: inline-block;
+  // margin-left: 2vw;
+  width: 20vw;
 }
 
 #education{
-  margin-left: 10vw;
+  position:relative;
+  left: 30%;
+  bottom:100%;
+  margin-top:10vh ;
+}
+
+#work{
+
+}
+
+#freelance{
 }
 
 
 
+.experience-title{
+  // padding-top: 5px;
+}
+
+#mission{
+position: relative;
+left: 36%;
+margin: 2vh;
+width: 12vw;
+}
+
+#statement{
+  position: relative;
+  font-weight: 700;
+  left: 25%;
+  width: 35vw;
+}
 
 
 

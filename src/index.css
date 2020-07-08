@@ -153,9 +153,27 @@ article {
 
 .education-experience {
   display: inline-block;
+  width: 20vw;
 }
 
 #education {
-  margin-left: 10vw;
+  position: relative;
+  left: 30%;
+  bottom: 100%;
+  margin-top: 10vh;
+}
+
+#mission {
+  position: relative;
+  left: 36%;
+  margin: 2vh;
+  width: 12vw;
+}
+
+#statement {
+  position: relative;
+  font-weight: 700;
+  left: 25%;
+  width: 35vw;
 }
 /*# sourceMappingURL=index.css.map */
