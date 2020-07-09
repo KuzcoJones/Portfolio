@@ -4,7 +4,7 @@ import { Link, Typography } from '@material-ui/core'
 const email = () => {
  return (
   <div className="email">
-   <Link color="black" component="button" underline='none'><Typography variant="h6" id="email">keenanjones210@gmail.com</Typography></Link>
+   <Link href="mailto:keenanjones210@gmail.com" color="black" component="a" underline='none'><Typography variant="h6" id="email">keenanjones210@gmail.com</Typography></Link>
   </div>
  )
 }
