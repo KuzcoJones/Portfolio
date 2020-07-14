@@ -127,6 +127,7 @@ section {
   width: 20vw;
   padding: 10px;
   margin: 12px;
+  background-color:#1d3557 ;
 }
 
 #projects {
@@ -148,20 +149,6 @@ section {
   height: 25rem;
 }
 
-// @keyframes slideFromRight {
-//   0% {
-//     transform: translate(1000px);
-//   }
-
-//   100% {
-//     transform: translate(0px);
-//   }
-// }
-
-#about {
-  // animation: slideFromRight 2s ease-in-out 1;
-
-}
 
 #about-article {
   float: right;
