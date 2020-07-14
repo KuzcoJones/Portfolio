@@ -7,7 +7,6 @@ const hero = () => {
    <article id="hero-article">
     <Typography variant="h4">Hello, my name is</Typography>
     <Typography variant="h1">Keenan Jones</Typography>
-    <Typography variant="h3">I build things for the web</Typography>
     <br/>
     <br/>
     <Typography variant="h5">I'm a software engineer based in Chicago, IL specializing in building beautiful, maintainable, and high-performing web applications. </Typography>

@@ -1,12 +1,12 @@
 import React from 'react'
-import { Button } from '@material-ui/core'
+import { Button, Typography } from '@material-ui/core'
 
 const contact = () => {
  return (
   <section id="contact">
-   <h1>contact</h1>
+   <Typography variant="h3">Currently looking for new opportunities </Typography>
    <Button href="mailto:keenanjones210@gmail.com" variant="contained" color="secondary">
-    Get In Touch
+     Say Hello
    </Button>
   </section>
  )
