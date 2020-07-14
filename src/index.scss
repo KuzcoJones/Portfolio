@@ -1,65 +1,71 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  
+
 }
 
-h1,h2,h3, h4, h5, h6, span{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
   font-family: Arial, Helvetica, sans-serif;
-  color: #ffffff ;
+  color: #ffffff;
 }
 
-hr{
+hr {
   border-color: #e3ba34;
 }
 
 
-.App{
-    background-color: #1d3557;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0 auto;
+.App {
+  background-color: #1d3557;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 
-section{
- margin: 0 auto;
+section {
+  margin: 0 auto;
   padding: 150px 0;
   max-width: 1000px;
- }
+}
 
- .socials{
+.socials {
   display: inline-block;
   position: fixed;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   z-index: 1;
   bottom: 0;
   left: 0;
- }
-
- .socials li{
-  list-style: none;
-  margin-bottom: 20px;
- }
-
- .socials li :hover{
-  color: #e3ba34;
-  height: 4rem ;
 }
 
- .socials::after{
+.socials li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.socials li :hover {
+  color: #e3ba34;
+  height: 4rem;
+}
+
+.socials::after {
   content: "";
-    display: block;
-    width: 1px;
-    height: 150px;
-    background-color: #e3ba34;
-    margin: 0px auto;
-    box-sizing: inherit;
- }
+  display: block;
+  width: 1px;
+  height: 150px;
+  background-color: #e3ba34;
+  margin: 0px auto;
+  box-sizing: inherit;
+}
 
 
 
- .email{
+.email {
   display: inline-block;
   position: fixed;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
@@ -67,105 +73,128 @@ section{
   bottom: 0;
   right: 0;
   padding: 20px;
- }
+}
 
- #email{
+#email {
   writing-mode: vertical-lr;
   padding: 20px;
- }
+}
 
- .email::after{
+.email::after {
   content: "";
-    display: block;
-    width: 1px;
-    height: 150px;
-    background-color:#e3ba34;
-    margin: 0px auto;
-    box-sizing: inherit;
- }
+  display: block;
+  width: 1px;
+  height: 150px;
+  background-color: #e3ba34;
+  margin: 0px auto;
+  box-sizing: inherit;
+}
 
- .email :hover{
+.email :hover {
   color: #e3ba34;
- }
+}
 
- @media all and (max-width: 900px) {
-  .email { display: none; }
-  .socials{display: none;}
+@media all and (max-width: 900px) {
+  .email {
+    display: none;
+  }
+
+  .socials {
+    display: none;
+  }
 }
 
 
 
-#nav{
+#nav {
   position: relative;
   display: block;
   float: right;
 }
 
-#nav a:hover{
-  background-color:#e3ba34 ;
+#nav a:hover {
+  background-color: #e3ba34;
 }
 
-#resume{
-  background-color:#ff6242 ;
+#resume {
+  background-color: #ff6242;
 }
 
 
-.card{
+.card {
   display: inline-block;
   height: 55vh;
   width: 20vw;
   padding: 10px;
   margin: 12px;
-  }
+}
 
-#projects{
+#projects {
   display: block;
 }
 
-#img-container{
-  background-color:#e3ba34;
+#img-container {
+  background-color: #e3ba34;
   box-shadow: 5px 10px;
 }
 
 
-#img{
+#img {
   opacity: 0.5;
 }
 
-#img:hover{
+#img:hover {
   opacity: 1;
   height: 25rem;
 }
 
-article{
-  float: left;
+// @keyframes slideFromRight {
+//   0% {
+//     transform: translate(1000px);
+//   }
+
+//   100% {
+//     transform: translate(0px);
+//   }
+// }
+
+#about {
+  // animation: slideFromRight 2s ease-in-out 1;
+
+}
+
+#about-article {
+  float: right;
+  margin-top: 3vh;
+  width: 30vw;
+  color: white;
 }
 
 
-#hero-button{
+#hero-button {
   position: relative;
   left: 30%;
   margin-top: 11%;
   padding: 4%;
 }
 
-.education-experience{
+.education-experience {
   display: inline-block;
   margin-left: 2vw;
   width: 20vw;
 }
 
-#education{
-  position:relative;
+#education {
+  position: relative;
   left: 30%;
   top: 5vh;
 }
 
-#work{
-position: relative;
+#work {
+  position: relative;
 }
 
-#freelance-time{
+#freelance-time {
   position: relative;
   bottom: 4vh;
   left: 80%;
@@ -173,24 +202,20 @@ position: relative;
 
 
 
-.experience-title{
+.experience-title {
   // padding-top: 5px;
 }
 
-#mission{
-position: relative;
-left: 36%;
-margin: 2vh;
-width: 12vw;
+#mission {
+  position: relative;
+  left: 36%;
+  margin: 2vh;
+  width: 12vw;
 }
 
-#statement{
+#statement {
   position: relative;
   font-weight: 700;
   left: 25%;
   width: 35vw;
 }
-
-
-
-
