@@ -1,6 +1,6 @@
 import React from 'react'
 import { Tab, Tabs }  from '@material-ui/core'
-import resume from '../content/Resume.pdf'
+import Resume from '../../src/content/Resume.pdf'
 
 
 
@@ -20,7 +20,7 @@ const Navbar = () => {
         <Tab label="Experience" href="#experience"/>
         <Tab label="Projects" href="#projects"/>
         <Tab label="Contact" href="#contact"/>
-        <Tab id="resume" href={resume} target="_blank" label="Resume" color="#ff6242"/>
+        <Tab id="resume" href={Resume} target="_blank" label="Resume" color="#ff6242"/>
       </Tabs>
   )
 }
