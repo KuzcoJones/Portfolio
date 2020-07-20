@@ -1,6 +1,6 @@
 import React from 'react'
 import { Tab, Tabs }  from '@material-ui/core'
-import resume from '../content/resume.pdf'
+import resume from '../content/Resume.pdf'
 
 
 
