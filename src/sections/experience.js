@@ -10,7 +10,7 @@ const experience = () => {
    <Typography variant="h2">Experience</Typography><hr/>
    <Typography variant="h5" id="mission">My Mission is</Typography>
     <Typography variant="h4" id="statement">
-      MAKE EVERYDAY SYSTEMS AND PROCESSES BETTER: THROUGH APPS
+      DESIGNING EASY TO NAVIGATE AND APPEALING WEBSITES FOR BUSINESS OPTIMIZATION. 
     </Typography>
 
    <Grid item  component={Work} />
