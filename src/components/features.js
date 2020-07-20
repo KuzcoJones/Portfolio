@@ -32,7 +32,7 @@ const features = () => {
                         / >
                               
                   </CardActionArea> 
-                  <CardActions>
+                  <CardActions class = "card-actions">
                         <IconButton className="feature-button" href="https://youtu.be/3adb9v1WIyA" target="_blank">
                               <PlayArrow color="secondary"/>
                         </IconButton>
@@ -43,7 +43,7 @@ const features = () => {
             </Card>
             
 
-            <Card class = 'card'>
+            <Card class = 'card' >
                   <CardHeader title="Day21"/>
                   <CardActionArea >
                         <CardMedia 
@@ -54,7 +54,7 @@ const features = () => {
                         />
                               
                   </CardActionArea> 
-                  <CardActions>
+                  <CardActions class = "card-actions">
                         <IconButton className="feature-button" href="https://github.com/KuzcoJones/FE-Day21" target="_blank">
                               <GitHub color="secondary"/>
                         </IconButton>
@@ -69,9 +69,9 @@ const features = () => {
                         height="290"
                         image={weather}
                         title = "Weather Widget"
-                        />
+                        /> 
                   </CardActionArea> 
-                  <CardActions>
+                  <CardActions class = "card-actions">
                         <IconButton className="feature-button"  >
                               <GitHub  color="secondary"/>
                         </IconButton>
