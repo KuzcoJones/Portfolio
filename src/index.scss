@@ -1,8 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-
 }
+
+// Variables 
+$primary-color: #1d3557;
 
 h1,
 h2,
@@ -21,7 +23,7 @@ hr {
 
 
 .App {
-  background-color: #1d3557;
+  background-color: $primary-color;
   height: 100%;
   width: 100%;
   padding: 0;
@@ -127,7 +129,7 @@ section {
   width: 20vw;
   padding: 10px;
   margin: 12px;
-  background-color:#1d3557 ;
+  background-color:$primary-color ;
   pointer-events:none;
 }
 
@@ -193,10 +195,6 @@ section {
 }
 
 
-
-.experience-title {
-  // padding-top: 5px;
-}
 
 #mission {
   position: relative;

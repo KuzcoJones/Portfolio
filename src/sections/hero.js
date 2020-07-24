@@ -5,7 +5,7 @@ const hero = () => {
  return (
   <section>
    <article id="hero-article">
-    <Typography variant="h4">Hello, my name is</Typography>
+    <Typography variant="h4"> Hello, my name is</Typography>
     <Typography variant="h1">Keenan Jones</Typography>
     <br/>
     <br/>

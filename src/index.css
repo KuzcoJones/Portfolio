@@ -143,14 +143,9 @@ section {
           box-shadow: 5px 10px;
 }
 
-#img {
-  opacity: 0.5;
-}
 
-#img:hover {
-  opacity: 1;
-  height: 25rem;
-}
+
+
 
 #about-article {
   float: right;
