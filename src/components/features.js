@@ -52,9 +52,11 @@ const features = () => {
                         image={Day21}
                         title = "Day21"
                         />
-                              
                   </CardActionArea> 
                   <CardActions class = "card-actions">
+                        <IconButton className="feature-button" href="https://www.youtube.com/watch?v=ukS3qADMx5o&t=1s" target="_blank">
+                              <PlayArrow color="secondary"/>
+                        </IconButton>
                         <IconButton className="feature-button" href="https://github.com/KuzcoJones/FE-Day21" target="_blank">
                               <GitHub color="secondary"/>
                         </IconButton>
@@ -72,6 +74,9 @@ const features = () => {
                         /> 
                   </CardActionArea> 
                   <CardActions class = "card-actions">
+                        <IconButton className="feature-button" href="https://www.youtube.com/watch?v=fQX6m44wGTE&t=2s" target="_blank">
+                              <PlayArrow color="secondary"/>
+                        </IconButton>
                         <IconButton className="feature-button"  >
                               <GitHub  color="secondary"/>
                         </IconButton>
