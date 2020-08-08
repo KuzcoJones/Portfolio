@@ -144,14 +144,11 @@ section {
 }
 
 
-<<<<<<< HEAD
-=======
 #img:hover {
   opacity: 1;
   height: 25rem;
 }
 
->>>>>>> 0c6a19c8238442e6cf1696c14d0d314c4499283b
 #about-article {
   float: right;
   margin-top: 3vh;
